@@ -1,0 +1,53 @@
+<!-- 收货人信息  -->
+<view class="receiver item1">
+  <view class="text ">
+    <text class='ll'>订单编号</text>
+    <text class="red">{{order.order_no}}</text>
+  </view>
+  <view class="text">
+    <text class='ll'>收件人</text>
+    <text class='name'>{{address.name}}</text>
+    <text class="tel">{{address.mobile}}</text>
+  </view>
+  <text class="text1">
+    <text class='ll'>收货地址</text>
+  <text class='add'>{{address.province}}{{address.city}}{{address.country}}{{address.address}}</text>
+  </text>
+
+  <text class="text1">
+    <text class='ll'>备注</text>
+  <text class='add'>{{order.message}}</text>
+  </text>
+</view>
+<!-- 商品信息 -->
+<view class="goddsInfo item">
+  <view class="goodsTotlaNum text-right">共计{{goodsNum}}件商品</view>
+  <view wx:for-items="{{order.goods_list}}" wx:key="goods" wx:for-item="goods" class="goodsListItem overHidden">
+    <image class="goodsPic" src="{{goods.picture}}"></image>
+    <view class="goodsInfo">
+      <text class="goodsName">{{goods.name}}</text>
+      <text class="goodsDes">{{goods.effect}}</text>
+      <text class="goodsSpec">{{goods.model}}</text>
+      <text class="goodsPrice">￥{{goods.price}}</text>
+      <text class="goodsNum">×{{goods.num}}</text>
+    </view>
+  </view>
+</view>
+<view class="item priceDetail" id='mx'>
+  <view class="text">金额
+    <text>¥{{order.money}}</text>
+  </view>
+  <view class="text">运费
+    <text>¥{{order.freight}}</text>
+  </view>
+  <view class="text">优惠
+    <text>¥{{order.discount}}</text>
+  </view>
+  <view class="text">实付
+    <text>¥{{order.total}}</text>
+  </view>
+</view>
+<view class='bank'></view>
+<view class="opration">
+  <view class="pay btn" bindtap="pay">微信支付</view>
+</view>

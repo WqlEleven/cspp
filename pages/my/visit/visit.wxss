@@ -1,0 +1,40 @@
+page {
+  background-color: #f2f8fe;
+  width:100%;
+  height:100%;
+}
+.box{
+  width:100%;
+  height:100%;
+}
+.box image{
+  width:100%;
+  height:100%;
+}
+button{
+  height: 100rpx;
+  width: 610rpx;
+  background-color: #FEC820;
+  color: #7F3300;
+  line-height: 100rpx;
+  font-size: 36rpx;
+  text-align: center;
+  position: absolute;
+  bottom: 214rpx;
+  left: 70rpx; 
+  border-radius: 75rpx;
+}
+.btn-help {
+  width: 238rpx;
+  height: 64rpx;
+  border: 1rpx solid #fff;
+  border-radius: 75rpx;
+  background-color: ;
+  color: #fff;
+  line-height: 64rpx;
+  text-align: center;
+  font-size: 32rpx;
+  position: absolute;
+  bottom:90rpx;
+  left: 256rpx;
+}

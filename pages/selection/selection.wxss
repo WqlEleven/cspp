@@ -1,0 +1,158 @@
+/**index.wxss**/
+page{
+  background: #f2f8fe;
+}
+.index-nav{
+  background-color: #fff;
+  position: relative;
+  font-size:26rpx;
+  width: 100%;
+}
+.index-nav .dzjx_bg{
+  width: 100%;
+  height: 300rpx;
+}
+.shopkeeper{
+  position: absolute;
+  left:32rpx;
+  top: 72rpx;
+}
+.shopkeeper .shoph{
+  width: 156rpx;
+  height: 156rpx;
+}
+.shopkeeper .shoph image{
+  display:block; 
+  overflow:hidden; 
+  border-radius: 50%;
+  width: 156rpx;
+  height: 156rpx;
+}
+.shopkeeper .shopmess{
+  position: absolute;
+  left:175rpx;
+  width:300rpx;
+  top: 46rpx;
+  font-size: 26rpx;
+  color: #fff;
+  letter-spacing:3rpx;
+}
+.shopkeeper .firname{
+   font-size: 30rpx;
+  color: #fff;
+  letter-spacing:3rpx;
+}
+.shopkeeper .firname text{
+   display: block
+}
+.shopkeeper .secname{
+  margin-top: 24rpx;
+  color: #fff;
+  font-size: 26rpx;
+}
+.nav{
+  position: absolute;
+  right:20rpx;
+  top:40rpx;
+  color:#fff;
+  line-height: 35rpx;
+}
+.menu{
+  width: 35rpx;
+  height: 35rpx;
+  margin-left: 5rpx;
+  vertical-align: top;
+}
+ .sec-nav{
+  font-size: 26rpx;
+  position: absolute;
+  top:100rpx;
+  right: 20rpx;
+  display: none
+}
+.index-menu{
+  background-color: #fff;
+  color: #000;
+  font-size: 30rpx;
+}
+.now-go{
+  margin-top: 20rpx;
+  width: 320rpx;
+  float: left;
+  margin-left: 32rpx;
+  height: 548rpx;
+}
+.now-go navigator{
+  display: block;
+  background-color: #fff;
+  padding: 16rpx;
+  border-radius: 10rpx;
+}
+.now-go image{
+  width: 100%;
+  height: 288rpx;
+}
+ .mess{
+  padding:0rpx 18rpx 18rpx;
+}
+.mess .spacial{
+  background-color: #ff5a02;
+  color: #fff;
+  border-radius: 5rpx;
+  font-size: 23rpx;
+  text-align: center;
+  display: block;
+  width: 72rpx;
+  height: 30rpx;
+  line-height: 30rpx;
+  margin-top: 22rpx;
+}
+.mess .spacialdis{
+  background-color: #ff5a02;
+  color: #fff;
+  border-radius: 5rpx;
+  font-size: 23rpx;
+  text-align: center;
+  display: block;
+  width: 72rpx;
+  height: 30rpx;
+  line-height: 30rpx;
+  margin-top: 15rpx;
+}
+.mess .tit{
+  font-size: 30rpx;
+  color: #333;
+  margin-top: 15rpx;
+  display: block;
+  width: 262rpx;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.mess-price .price{
+  color: #e11616;
+  font-size: 30rpx;
+  display: block;
+  line-height: 40rpx;
+  margin-top: 10rpx;
+}
+ .mess-price .btn{
+  font-size: 24rpx;
+  color: #666666;
+  padding: 12rpx;
+  border:1px solid #666;
+  float: right;
+}
+.mess-price .stock {
+  color: #666;
+  font-size: 30rpx;
+  line-height: 45rpx;
+  padding-top: 20rpx;
+  margin-left: 15rpx;
+}
+
+.product-null{
+    padding: 40rpx 0;
+    color: #999;
+    text-align: center; 
+}

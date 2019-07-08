@@ -1,0 +1,5 @@
+<navigator open-type="redirect" url="/pages/my/visit/visitDetail/visitDetail" class="btn-help"> 邀请明细</navigator>
+<view class='box'>
+  <image src='/image/visit.png'></image>
+</view>
+<button open-type="share">邀请小伙伴</button>

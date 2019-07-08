@@ -1,0 +1,18 @@
+<import src="../../../../wxParse/wxParse.wxml" />
+<view wx:for="{{goods}}" wx:key="goods" class='box'>
+  <view class="banner {{iiShow?'active':''}}">
+    <image src="{{item.src}}"></image>
+  </view>
+  <template is="wxParse" data="{{wxParseData:manual.nodes}}" />
+  <view id="{{item.id}}" class="title" bindtap='clickCheck' data-index="{{index}}">
+  <view class='bgc'>
+      <view class='name'>{{item.name}}</view> 
+      <view class='last'>
+        <view class="price">￥{{item.price}}</view>
+        <view class='person'>邀请人  {{user.nickname}}</view>
+      </view>
+  </view>
+  <view id="{{goods.id}}" class="buy" bindtap="buyTap">立刻购买</view>
+  </view>
+</view>
+<view class='blank'></view>

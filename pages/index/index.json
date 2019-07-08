@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "长寿拼拼",
+  "usingComponents": {
+    "user-auth": "/pages/component/UserAuth/UserAuth"
+  }
+}

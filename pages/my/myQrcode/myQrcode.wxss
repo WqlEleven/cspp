@@ -1,0 +1,19 @@
+page{
+  background-color: #f2f8fe;
+}
+.qrcode{
+  width: 530rpx;
+  height:530rpx;
+  margin: 85rpx 110rpx;
+}
+.btn-save{
+  margin:0 65rpx;
+  height: 90rpx;
+  line-height: 90rpx;
+  text-align: center;
+  background-color: #FF5A02;
+  font-size: 32rpx;
+  color: #fff;
+  letter-spacing: 4rpx;
+  border-radius: 12rpx;
+}

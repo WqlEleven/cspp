@@ -1,0 +1,200 @@
+page{
+  background-color: #f2f8fe;
+  font-size: 32rpx;
+  color: #333;
+}
+.text-right{
+  text-align: right;
+}
+.item{
+  background-color: #fff;
+  font-size: 32rpx;
+  color: #333;
+  clear: both;
+  margin-top: 20rpx;
+}
+.arrow_wrap {
+    position: absolute;
+    width: 28rpx;
+    height: 28rpx;
+    right: 20rpx;
+    top: 24rpx;
+}
+.toAddress,
+.ticket,
+.priceDetail{
+  height: 74rpx;
+  line-height: 74rpx;
+  position: relative;  
+  padding: 0 24rpx;
+}
+.notice{
+  height: 100rpx;
+  line-height: 100rpx;
+  position: relative;  
+  padding: 10rpx 30rpx;
+}
+.ll{
+  width: 128rpx;
+  display: block;
+  float: left;
+  margin-right: 20rpx;
+}
+.add{
+  display: block;
+  float: left;
+  width: 520rpx;
+}
+.goodsList{
+  border-top: solid 1px #f2f2f2;
+  border-bottom: solid 1px #f2f2f2;
+  padding-bottom: 35rpx;
+}
+.goods{
+  padding: 15rpx 30rpx 0;
+  overflow: hidden;
+}
+.goods text{
+  line-height: 30rpx;
+  display: block;
+}
+.goodsTotalNum{
+  font-size: 28rpx;
+  height: 50rpx;
+  color: #666;
+  text-align: right;
+  margin-top: 20rpx;
+  border-bottom: 1rpx solid #eee;
+  padding: 20rpx 30rpx 0;
+}
+.goodsPic{
+  width: 176rpx;
+  height: 176rpx;
+  float: left;
+  border: 1rpx solid #eee;
+  padding: 8rpx;
+  border-radius: 8rpx;
+  margin-top: 20rpx;
+}
+.goodsInfo{
+  overflow: hidden;
+  padding-top: 20rpx;
+  float: left;
+}
+.PriceNum{
+  text-align: right;
+  margin-left: 196rpx;
+}
+.goodsName{
+  font-size: 32rpx;
+  color: #333;
+  margin-left: 20rpx;
+  margin-top: 20rpx;
+}
+.goodsDes{
+  font-size: 24rpx;
+  color: #666;
+  margin-left: 20rpx;
+  margin-top: 6rpx;
+}
+.goodsSpec{
+  margin-top: 12rpx;
+  font-size: 24rpx;
+  color: #666;
+  margin-left: 20rpx;
+  display: block;
+}
+.goodsPrice{
+  font-size: 36rpx;
+  margin-left: 14rpx;
+  color: #333;
+  text-align: left;
+  float: left;
+  margin-top: 108rpx;
+  display: block;
+}
+.goodsNum{
+  font-size: 28rpx;
+  float: right;
+  text-align: right;
+  color: #333;
+  margin-left: 315rpx;
+  margin-top: 108rpx;
+}
+.priceDetail{
+  margin-top: 20rpx;
+  height: 214rpx;
+  position: relative;  
+  padding: 20rpx 30rpx;
+  overflow: hidden;
+  font-size: 32rpx;
+  color: #333;
+}
+.priceDetail .text{
+  height: 72rpx;
+  line-height: 72rpx;
+  position: relative;
+}
+.priceDetail text{
+  color: #C40200; 
+  position: absolute;
+  top: 0;
+  right:0;
+}
+
+.defaultAddress{  
+  padding: 0 30rpx 20rpx;
+  background-color: #fff;
+  overflow: hidden;
+}
+.defaultAddress .user{
+  padding:10px 0;
+}
+.defaultAddress .user:after{
+  content:"";
+  display: block;
+  clear: both;
+}
+.defaultAddress .name{
+  display: block;
+  float: left;
+  width: 200rpx;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.defaultAddress .ress{
+  display: block;
+  float: left;
+  min-height: 55rpx;
+}
+.footer{
+  border-top: 1rpx solid #eee;
+  background: #fff;
+  position: fixed;
+  left:0;
+  right:0;
+  bottom: 0;
+  height: 98rpx;
+  line-height: 98rpx;
+  font-size: 32rpx;
+  color: #333;
+  padding-left: 30rpx;
+}
+.footer .right{
+  float: right;
+}
+.footer .left{
+  float: left;
+}
+.footer .right button{
+  width: 228rpx;
+  height: 100rpx;
+  border-radius: 0;
+  background-color: #FF5A02;
+  text-align: center;
+  color: #fff;
+}
+.blank{
+   height: 80rpx;
+}

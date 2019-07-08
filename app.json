@@ -1,0 +1,95 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/selection/selection",
+    "pages/car/car",
+    "pages/my/my",
+    "pages/fenlei/fenlei",
+    "pages/search/search",
+    "pages/login/login",
+    "pages/goodsList/goodsList",
+    "pages/goodsDetail/goodsDetail",
+    "pages/recipegoodsDetail/recipegoodsDetail",
+    "pages/recipesubmitOrder/recipesubmitOrder",
+    "pages/recipepay/recipepay",
+    "pages/recipecar/recipecar",
+    "pages/submitOrder/submitOrder",
+    "pages/pay/pay",
+    "pages/my/myShop/myShop",
+    "pages/my/fenleiChoice/fenleiChoice",
+    "pages/my/myShopManage/myShopManage",
+    "pages/my/order/order",
+    "pages/my/orderDetail/orderDetail",
+    "pages/my/logistics/logistics",
+    "pages/my/myQrcode/myQrcode",
+    "pages/addressManage/addressManage",
+    "pages/address/address",
+    "pages/editAddress/editAddress",
+    "pages/my/visit/visit",
+    "pages/my/profit/profit",
+    "pages/my/profitList/profitList",
+    "pages/my/pickup/pickup",
+    "pages/my/team/team",
+    "pages/rules/rules",
+    "pages/my/gift/gift",
+    "pages/my/gift/giftlist/giftlist",
+    "pages/my/gift/giftOrder/giftOrder",
+    "pages/my/gift/giftPay/giftPay",
+    "pages/my/gift/giftOrderList/giftOrderList",
+    "pages/my/gift/giftOrderDetail/giftOrderDetail",
+    "pages/my/gift/writeMessage/writeMessage",
+    "pages/guest/guest",
+    "pages/my/visit/visitDetail/visitDetail",
+    "pages/map/map",
+    "pages/savePageCode/savePageCode",
+    "pages/saveCode/saveCode",
+    "pages/saveShopCode/saveShopCode",
+    "pages/my/currency/currency",
+    "pages/prescript/prescript",
+    "pages/prescriptDetail/prescriptDetail",
+    "pages/prescriptOrder/prescriptOrder",
+    "pages/seckill/seckill",
+    "pages/my/prescript/prescript"
+  ],
+  "tabBar": {
+    "color": "#333333",
+    "selectedColor": "#FF5A02",
+    "borderStyle": "white",
+    "backgroundColor": "#f9f9f9",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "image/home.png",
+        "selectedIconPath": "image/home1.png"
+      },
+      {
+        "pagePath": "pages/fenlei/fenlei",
+        "text": "分类",
+        "iconPath": "image/fl.png",
+        "selectedIconPath": "image/fl1.png"
+      },
+      {
+        "pagePath": "pages/car/car",
+        "text": "购物车",
+        "iconPath": "image/car.png",
+        "selectedIconPath": "image/car1.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "image/my.png",
+        "selectedIconPath": "image/my1.png"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTitleText": "长寿拼拼",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#ffffff",
+    "enablePullDownRefresh": true
+  },
+  "sitemapLocation": "sitemap.json"
+}

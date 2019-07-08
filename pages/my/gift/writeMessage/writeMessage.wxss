@@ -1,0 +1,85 @@
+/* pages/my/gift/writeMessage/writeMessage.wxss */
+page{
+  background: #f2f8fe;
+}
+.title{
+  color: #333;
+  font-size: 24rpx;
+  background: #FFD1B8 ;
+  line-height: 80rpx;
+  text-align: center;
+  height: 80rpx;
+  width: 100%;
+}
+.item{
+  height: 100rpx;
+  margin-left: 30rpx;
+  margin-right: 30rpx;
+  font-size:32rpx;
+  color:#333 ;
+  line-height: 100rpx;
+  background: #fff;
+  border-radius: 12rpx;
+  padding: 0 20rpx;
+  position: relative;
+}
+.top{
+  margin-top: 20rpx;
+}
+.border{
+  border-bottom: 2rpx dashed #eee;
+}
+.item input{
+  text-align: left;
+  display: block;
+  width: 303rpx;
+  padding-left: 20rpx;
+  float: right;
+  font-size: 32rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+  margin-right: 200rpx;
+}
+.submit{
+  color: #fff;
+  font-size: 32rpx;
+  background: #c40000;
+  text-align: center;
+  line-height: 100rpx;
+  border-radius: 12rpx;
+  margin: 60rpx auto 0;
+  height: 100rpx;
+  background-color: #FF5A02;
+  width: 90%;
+}
+.left{
+  float: left;
+}
+.code{
+  width: 140rpx;
+  color: #FF5A02;
+  font-size: 28rpx;
+  position: absolute;
+  right: 20rpx;
+  top:0;
+  border-radius: 0;
+  border: 1rpx solid #fff;
+  text-align: center;
+  line-height: 100rpx;
+  background-color: #fff;
+}
+.item button{
+  width: 200rpx;
+  color: #FF5A02;
+  font-size: 28rpx;
+  position: absolute;
+  right: 10rpx;
+  top:0;
+  border-radius: 0;
+  border: 1px solid transparent;
+  text-align: center;
+  line-height: 70rpx;
+  background-color: #fff;
+  margin-top: 14rpx;
+  z-index: 100;
+}

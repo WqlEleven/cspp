@@ -1,0 +1,281 @@
+page{
+  background-color: #f2f8fe; 
+  padding-bottom: 20rpx;
+  font-size: 26rpx;
+  color: #414141;
+}
+.wode_item {
+	padding: 0 10px;
+	line-height:100rpx;
+  height: 100rpx;
+	position: relative;
+  background-color: #FFF;
+  font-size: 30rpx;
+  margin-top: 20rpx;
+  color: #333;
+  padding-left: 80rpx;
+  text-align: left;
+}
+.arrow_wrap {
+    position: absolute;
+    right: 30rpx;
+    top: 50%;
+    width: 36rpx;
+    height:  36rpx;
+    margin-top: -20rpx;
+}
+.index-nav{
+  background-color: #fff;
+  position: relative;
+  font-size:26rpx;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  height: 300rpx;
+}
+.index-nav .dzjx_bg{
+  width: 100%;
+  height: 300rpx;
+}
+.shopkeeper{
+  position: absolute;
+  left:32rpx;
+  top: 72rpx;
+}
+.shopkeeper .shoph{
+  width: 156rpx;
+  height: 156rpx;
+}
+.shopkeeper .shoph .head-img{
+  display:block; 
+  overflow:hidden; 
+  border-radius: 50%;
+  width: 156rpx;
+  height: 156rpx;
+}
+.shopkeeper .shoph image{
+  width: 156rpx;
+  height: 156rpx;
+}
+.shopkeeper .shopmess{
+  position: absolute;
+  left:175rpx;
+  width:300rpx;
+  top: 46rpx;
+  font-size: 26rpx;
+  color: #fff;
+  letter-spacing:3rpx;
+}
+.shopkeeper .shopmess text{
+  display: block;
+}
+.shopkeeper .firname{
+  font-size: 30rpx;
+  color: #fff;
+  letter-spacing:3rpx;
+}
+.shopkeeper .secname{
+  color: #6a6a6a;
+  font-size: 26rpx;
+}
+.usertype{
+  width: 102rpx;
+  height: 40rpx;
+  background-color: #f5c49f;
+  color: #e06704;
+  border-radius: 15rpx;
+  text-align: center;
+  line-height: 40rpx;
+  position: absolute;
+  right: 25rpx;
+  bottom: 22rpx;
+}
+.income{
+  padding: 8rpx 0;
+  text-align: center;
+  font-size: 26rpx;
+  margin-top: 20rpx;
+  color: #414141;
+  background-color: #fff;
+  overflow: hidden;
+}
+.income .item{
+  width: 33%;
+  float: left;
+  line-height: 52rpx;
+  padding: 10rpx 0;
+  position: relative;
+}
+.borderr{
+  background-color: #ccc;
+  width: 1rpx;
+  height: 88rpx;
+  position: absolute;
+  top: 20rpx;
+  right: 2rpx;
+}
+.borderrr{
+  background-color: #ccc;
+  width: 1rpx;
+  height: 88rpx;
+  position: absolute;
+  top: 20rpx;
+  right: 4rpx;
+}
+.income .item text{
+  display: block;
+}
+.myorder {
+	padding: 0 10px;
+	line-height:100rpx;
+  height: 100rpx;
+	position: relative;
+  background-color: #FFF;
+  font-size: 30rpx;
+  margin-top: 20rpx;
+  color: #333;
+  padding-left: 80rpx;
+  text-align: left;
+}
+.border{
+  height: 4rpx;
+  width: 662rpx;
+  background-color: #d8d8d8;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+#myy{
+  margin-top: 20rpx;
+  position: relative;
+}
+.myorder .right{
+  color: #6e6e6e
+}
+.right{
+  float: right;
+  margin-right: 56rpx;
+}
+.myorderItem{
+  overflow: hidden;
+  padding: 4rpx 0;
+}
+.myorderItem navigator{
+  padding: 18rpx 0;
+  text-align: center;
+  width: 25%;
+  box-sizing: border-box;
+  border-right: 1px solid #cccccc;
+  display: block;
+  float: left;
+}
+.myorderItem navigator.nopay{
+color: #f92900
+}
+.myorderItem navigator.norecieve{
+  color: #f9aa00;
+}
+.myorderItem navigator.pay{
+  color: #00a008;
+  border-right: 0;
+}
+.wode_item .green{
+  float: right;
+  color: #e11616;
+  font-size: 32rpx;
+  margin-right: 60rpx;
+}
+.order-item{
+  color: #E11616;
+  font-size: 30rpx;
+}
+.icon{
+  width: 35rpx;
+  height: 35rpx;
+  position: absolute;
+  left:20rpx;
+  top:31rpx
+}
+
+.wode_money{
+  padding-left:20rpx
+}
+.wode_item button{
+  line-height: 100rpx;
+  height: 100rpx;
+  background: #fff;
+  font-size:30rpx;
+  color:#414141;
+  text-align:left;
+  border:0;
+  padding-left: 0;
+}
+.wode_item button:after{
+  border:0
+}
+
+.shares{
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 50%;
+  position: absolute;
+  top:24rpx;
+  right:30rpx;
+  overflow: hidden;
+}
+.btn_share{ 
+  width: 65rpx;
+  height: 65rpx;
+  margin: 15rpx auto;
+  display: block
+}
+.shareBox{
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top:0;
+}
+.shareBox .win_share{
+  background: #fff;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 40rpx 0;
+  z-index: 22;
+}
+.shareBox .win_share .share1{
+  width: 50%;
+  float: left;
+  text-align: center;
+}
+.shareBox .win_share .share1 image{
+  width: 60rpx;
+  height: 60rpx;
+  display: inline-block
+}
+.shareBox .win_share .share1 text{
+  display: block;
+  margin-top: 20rpx;
+}
+.blankShare{
+  position: absolute;
+  top:0;
+  width: 100%;
+  height: 80%;
+}
+.shareBox button{
+  background:transparent;
+  font-size:26rpx;
+  color:#414141;
+  line-height:45rpx;
+} 
+.shareBox button::after {
+  border:0;
+  font-size: 26rpx;
+  background-color: fff;
+}
+.shareBox .win_share .share1 button text{
+  display: block;
+  margin-top: 13rpx
+}

@@ -1,0 +1,198 @@
+/* pages/prescriptDetail/prescriptDetail.wxss */
+page{
+  background-color: #f2f8fe;
+}
+.cart-box {
+  position: relative;
+}
+.shopname {
+  background-color: #c40000;
+  color: #fff;
+  font-size: 30rpx;
+  padding: 30rpx 20rpx 30rpx 80rpx;
+}
+.cart-list {
+  position: relative;
+  height: 185rpx;
+  border-radius: 10rpx;
+  padding: 24rpx 0 30rpx 265rpx;
+  transition: left 0.2s ease-in-out;
+  margin:0 20rpx;
+  margin-top: 20rpx;
+}
+.cart-list-con {
+  position: absolute;
+  z-index: 15;
+  width: 100%;
+  height: 225rpx;
+  padding: 24rpx 0 30rpx 265rpx;
+  left: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  top: 0;
+  box-sizing: border-box;
+  background: #fff;
+  font-size: 26rpx;
+}
+.cart-list .cart-pro-select {
+  position: absolute;
+  left: 10rpx;
+  top: 90rpx;
+  width: 32rpx;
+  height:32rpx;
+}
+.cart-list .cart-thumb {
+  position: absolute;
+  top: 20rpx;
+  left: 73rpx;
+  width: 164rpx;
+  height: 164rpx;
+  border:2rpx solid #d6d6d6;
+  border-radius: 10rpx;
+}
+.cart-list .cart-pro-name {
+  font-size: 32rpx;
+  color: #333;
+  margin-bottom: 10rpx;
+}
+.cart-list .cart-pro-price {
+  font-size: 32rpx;
+  color: #c40000;
+}
+.cart-list .cart-count-box {
+  position: absolute;
+  bottom: 10rpx;
+  width: 198rpx;
+  height: 56rpx;
+  overflow: hidden;
+  left: 260rpx;
+  color: #333;
+}
+.clearfix {
+  overflow: hidden;
+}
+.clearfix .fl {
+  float: left;
+}
+.clearfix .fr {
+  float: right;
+	color: #787878;
+	margin-right: 23rpx;
+	font-size: 24rpx;
+}
+.prescription {
+  width: 100%;
+  height: 42rpx;
+}
+.prescription text {
+  padding: 0rpx 10rpx;
+  font-size: 24rpx;
+  color: #d60005;
+  border: 1px solid #ff0f0f;
+  display: inline-block;
+}
+.cart-list .cart-count-box text {
+  float: left;
+  line-height: 52rpx;
+  text-align: center;
+  height: 52rpx;
+}
+.cart-count-down, .cart-count-add {
+  float: left;
+  font-size: 44rpx;
+  width: 52rpx;
+  height: 52rpx;
+  line-height: 50rpx;
+  border: 1rpx solid #333;
+}
+.cart-count-down{
+  border-top-left-radius: 5rpx;
+  border-bottom-left-radius: 5rpx;
+}
+.cart-count-add{
+  border-top-right-radius: 5rpx;
+  border-bottom-right-radius: 5rpx;
+}
+.cart-count-num {
+  height: 52rpx;
+  float: left;
+  width: 86rpx;
+  font-size: 30rpx;
+  color: #636363;
+  line-height: 52rpx;
+  border-top: 1rpx solid #333333;
+  border-bottom: 1rpx solid #333333;
+}
+.cart-del {
+  width: 56rpx;
+  height: 56rpx;
+  position: absolute;
+  border-radius: 3rpx;
+  bottom: 24rpx;
+  right:20rpx;
+  display: block;
+  z-index: 20;
+}
+.cart-del image {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.cart-footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100rpx;
+  line-height: 100rpx;
+  padding: 0 220rpx 0 80rpx;
+  box-sizing: border-box;
+  background: #fff;
+  color: #2f2f2f;
+  font-size: 30rpx;
+  border-top: 1px solid #eee;
+  z-index: 30;
+}
+.total-select {
+  position: absolute;
+  left: 20rpx;
+  top: 25rpx;
+  width: 35rpx;
+  height: 35rpx;
+  color: #636363;
+}
+.order-icon {
+  position: absolute;
+  right: 0rpx;
+  top: -1rpx;
+  width: 220rpx;
+  height: 100rpx;
+  background: #FF5A02;
+  text-align: center;
+  line-height: 100rpx;
+  color: #fff;
+  font-size: 32rpx;
+}
+.cart-toatl-price.dis {
+  width: 80rpx;  
+	font-size: 30rpx;
+  display: block;
+  float: left;
+  margin-left: 22rpx;
+}
+.cart-toatl-price.all{
+  float: left;
+  width: 280rpx;
+  font-size: 30rpx;
+  display: block;
+  margin-left: 62rpx;
+}
+.cart-no-data {
+  padding: 40rpx 0;
+  color: #999;
+  text-align: center;
+}
+.blank {
+  height: 100rpx;
+}

@@ -1,0 +1,701 @@
+@import "../../wxParse/wxParse.wxss";
+page{
+  background-color: #f2f8fe;
+  width: 750rpx;
+}
+.tab {
+  width: 100%;
+  border-bottom: 1px solid #bebebe;
+  display: flex;
+}
+
+.tab .item {
+  flex: 1;
+  text-align: center;
+  padding: 30rpx 0;
+  font-size: 26rpx;
+  border-bottom: 2px solid #fff;
+}
+
+.tab .item.on {
+  border-bottom: 2px solid #d70000;
+}
+
+scroll-view {
+  margin-bottom: 30rpx;
+}
+
+swiper {
+  height: 750rpx;
+  background-color: #fff;
+}
+
+swiper image {
+  display: block;
+  width: 100%;
+  height: 750rpx;
+}
+
+.title {
+  font-size: 30rpx;
+  color: #333;
+  line-height: 40rpx;
+  margin-top: 20rpx;
+  background-color: #fff;
+  margin-left: 30rpx;
+  margin-right: 30rpx;
+  border-radius: 10rpx;
+  position: relative;
+  height: 280rpx;
+  padding-top: 20rpx;
+}
+.title .goodName{
+  display: block;
+  font-size: 36rpx;
+  color: #333;
+  padding-left: 20rpx;
+  font-weight: bold;
+}
+.title .des {
+  display: block;
+  font-size: 33rpx;
+  color: #333;
+  padding-left: 21rpx;
+  margin-top: 15rpx;
+}
+
+ .p_price{
+  margin-top: 28rpx;
+  height: 60rpx;
+  font-size: 44rpx;
+  color: #c40000;
+  font-weight: bold;
+  float: left;
+  position: absolute;
+  left: 20rpx;
+  bottom: 92rpx;
+}
+ .mess {
+  font-size: 28rpx;
+  color: #666666;
+  display: block;
+  float: right;
+  position: absolute;
+  right: 20rpx;
+  bottom: 102rpx;
+  
+}
+.type {
+  display: block;
+  float: left;
+  color: #FF5A02;
+  width: 88rpx;
+  height: 40rpx;
+  border: 2rpx solid #FF5A02;
+  border-radius: 5rpx;
+  text-align: center;
+  font-size: 28rpx;
+  line-height: 40rpx;
+  font-family: PingFang-SC-Regular;
+  position: absolute;
+  left: 20rpx;
+  bottom: 32rpx;
+}
+
+ .typedis {
+  color: #fff;
+  font-size: 20rpx;
+  padding: 4rpx 13rpx;
+  background: #d60005;
+  border-radius: 18rpx;
+  position: absolute;
+  left: 20rpx;
+  bottom: 32rpx;
+}
+ .num{
+  display: block;
+  float: right;
+  width: 100rpx;
+  height: 40rpx;
+  font-size: 28rpx;
+  color: #666666;
+  text-align: center;
+  line-height: 40rpx;
+  position: absolute;
+  right: 20rpx;
+  bottom: 32rpx;
+}
+.video {
+  width: 100%;
+}
+.video video {
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+
+
+.price_income {
+  color: #d60005;
+  font-size: 22rpx;
+  line-height: 45rpx;
+  padding-top: 20rpx;
+  margin-left: 15rpx;
+  position: relative;
+}
+
+.footer {
+  background-color: #fff;
+  width: 750rpx;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  font-size: 26rpx;
+  height: 96rpx;
+  text-align: center;
+  z-index: 9;
+}
+
+.footer .home {
+  color: #333;
+  width: 94rpx;
+  float: left;
+  font-size: 20rpx;
+  border-right: 2rpx solid #ddd;
+  border-top: 1px solid #eee;
+  position: relative;
+  height: 94rpx;
+}
+
+.footer .home image {
+  width: 46rpx;
+  height: 46rpx;
+  display: inline-block;
+  margin-top: 14rpx;
+  margin-bottom: -15rpx;
+}
+
+.footer .home button {
+  background: transparent;
+  font-size: 20rpx;
+  color: #333;
+  display: block;
+  width: 96rpx;
+  height: 38rpx;
+  position: absolute;
+  bottom: 0;
+  padding: 0;
+  margin: 0;
+  line-height: 38rpx;
+}
+
+.footer .home button:after {
+  border: 0;
+}
+.footer .home text {
+  display: block;
+}
+.gobuy{
+  height: 98rpx;
+  position: relative;
+  float: left;
+  width: 463rpx;
+}
+ .footer .addcar{
+  color: #333;
+  width: 226rpx;
+  line-height: 94rpx;
+  font-size: 32rpx;
+  border-top: 1rpx solid #eee;
+}
+.footer .buynow{
+  color: #fff;
+  width: 237rpx;
+  line-height: 98rpx;
+  font-size: 32rpx;
+  height: 98rpx; 
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: #FF5A02;
+} 
+
+.size {
+  height: 100rpx;
+  margin-left: 30rpx;
+  font-size: 32rpx;
+  color: #333333;
+  line-height: 100rpx;
+  width: 648rpx;
+  background-color: #fff;
+  border-radius: 12rpx;
+  padding: 0 20rpx;
+}
+.size image{
+  margin-top: 34rpx;
+}
+.goodintro{
+  width: 648rpx;
+  background-color: #FFFFFF;
+  margin-left: 30rpx;
+  margin-top: 30rpx;
+  border-radius: 12rpx;
+  padding: 20rpx 20rpx 30rpx;
+  font-size: 28rpx;
+  color: #666;
+  line-height: 80rpx;
+}
+.goodintro1{
+  background-color: #FFFFFF;
+  margin-top: 30rpx;
+  border-radius: 12rpx;
+  padding: 20rpx 30rpx 30rpx;
+  font-size: 28rpx;
+  color: #666;
+}
+.goodintro .canshu{
+  width: 128rpx;
+  height: 80rpx;
+  font-size: 32rpx;
+  color: #333;
+  margin-bottom: 10rpx;
+}
+.goodintro1 .canshu{
+  margin-left: 30rpx;
+  width: 128rpx;
+  height: 44rpx;
+  font-size: 32rpx;
+  color: #333;
+  padding-top: 20rpx;
+}
+.select {
+  width: 32rpx;
+  height: 32rpx;
+  float: right;
+  margin-top: 30rpx;
+}
+
+.pru-tab {
+  background-color: #d70000;
+  font-size: 36rpx;
+  color: #fff;
+  line-height: 100rpx;
+}
+
+.pru-tab text {
+  text-align: center;
+  width: 50%;
+  display: inline-block;
+}
+
+.pru-tab text.active {
+  background-color: #9f0000;
+}
+
+.pru-tab-mess {
+  padding: 10rpx 20rpx 39rpx;
+  font-size: 26rpx;
+  color: #3a3a3a;
+  overflow: hidden;
+}
+
+.pru-tab-mess .item {
+  font-size: 26rpx;
+  border-bottom: 1px solid #f3f3f3;
+  line-height: 52rpx;
+}
+
+.proBg {
+  background-color: rgba(0, 0, 0, 0.6);
+  position: fixed;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  font-size: 26rpx;
+  z-index: 11;
+}
+
+.proBg .pro-box {
+  background-color: #fff;
+  position: absolute;
+  bottom: 97rpx;
+  width: 750rpx;
+  height: 690rpx;
+  z-index: 999;
+}
+
+.proBg .pro-buy {
+  padding: 28rpx 35rpx 10rpx;
+}
+
+.pro-mess{
+  height: 200rpx;
+}
+
+.proBg .pro-mess .img {
+  width: 162rpx;
+  height: 162rpx;
+  padding: 14rpx 6rpx 14rpx 8rpx;
+  border-radius: 8rpx;
+  border: 1rpx solid #eee;
+  float: left;
+}
+
+.proBg .pro-mess .img image {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.proBg .pro-mess .pro-ses {
+  float: left;
+  margin-left: 28rpx;
+  height: 180rpx;
+}
+
+.proBg .pro-mess .pro-ses text {
+  display: block;
+}
+
+.proBg .pro-mess .pro-ses text.des {
+  font-size: 24rpx;
+  color: #4d4c4c;
+}
+
+.proBg .pro-mess .pro-ses text.name {
+  display: block;
+  margin-top: 26rpx;
+  width: 342rpx;
+  font-size: 32rpx;
+  color: #333;
+}
+
+.proBg .pro-mess .pro-ses text.price {
+  text-align: left;
+  font-size: 36rpx;
+  color: #C40000 ;
+  padding-left:0rpx;
+  margin-top: 30rpx;
+}
+
+.proBg .specy {
+  padding-top: 40rpx;
+  line-height: 40rpx;
+  height: 170rpx;
+}
+.proBg .specy .guige{
+  color: #333;
+  font-size: 32rpx;
+  display: block;
+  margin-bottom: 16rpx;
+}
+.proBg .specy .item {
+  border: 1px solid #333;
+  border-radius: 5px;
+  margin-right: 40rpx;
+  padding: 10rpx 15rpx;
+  display: block;
+  float: left;
+  color: #333;
+  height: 48rpx;
+  width: 172rpx;
+  font-size: 28rpx;
+  text-align:center;
+  line-height: 48rpx;
+}
+
+.proBg .specy .item.active {
+  color: #fff;
+  background-color: #FF5A02;
+  border: 1px solid #FF5A02;
+  display: block;
+  height: 48rpx;
+  width: 172rpx;
+  font-size: 28rpx;
+  text-align:center;
+  line-height: 48rpx;
+}
+
+.proBg .number {
+  padding: 30rpx 0 40rpx;
+  line-height: 40rpx;
+}
+.proBg .number #guige{
+  color: #333;
+  font-size: 32rpx;
+  margin-bottom: 16rpx;
+}
+.proBg .number text {
+  border: 1px solid #333;
+  color: #333;
+  display: block;
+  float: left;
+  font-size: 32rpx;
+  line-height: 68rpx;
+  width: 68rpx;
+  height: 68rpx;
+  text-align: center;
+}
+ .proBg .number #reduce{
+  margin-left: 5rpx;
+  border-top-left-radius: 4rpx;
+  border-bottom-left-radius: 4rpx;
+}
+.proBg .number #add{
+  border-top-right-radius: 5rpx;
+  border-bottom-right-radius: 5rpx;
+}
+.proBg .number text.numm {
+  border-left: 0;
+  border-right: 0;
+  display: block;
+  float: left;
+  height: 68rpx;
+  width: 108rpx;
+  line-height: 68rpx;
+  font-size: 32rpx;
+  color: #333;
+  text-align: center;
+} 
+
+.proBg .buycar, .proBg .buy {
+  width: 50%;
+  color: #fff;
+  text-align: center;
+  float: left;
+  line-height: 90rpx;
+}
+
+.proBg .buycar {
+  background-color: #68aa00;
+  margin-top: 100rpx;
+}
+
+.proBg .buy {
+  background: #ff9c00;
+}
+
+.material {
+  border-bottom: 10rpx solid #f2f2f2;
+  min-height:890rpx;
+}
+
+.material .item {
+  padding: 0 30rpx;
+  border-bottom: 1px solid #bebebe;
+}
+
+.material .no-item{
+  text-align: center;
+  line-height:100rpx;
+  border:none;
+}
+
+.material .title {
+  padding: 20rpx 0;
+  display: flex;
+  line-height: 55rpx;
+}
+
+.material .title image {
+  width: 55rpx;
+  border-radius: 50%;
+  margin-right: 20rpx;
+}
+
+.material .con {
+  color: #2d2d2d;
+  font-size: 26rpx;
+  line-height: 40rpx;
+  padding-bottom: 10rpx;
+}
+
+.material .img_box {
+  overflow: hidden;
+}
+
+.material .img_box image {
+  width: 215rpx;
+  height: 215rpx;
+  margin-right: 25rpx;
+  margin: 10rpx 25rpx 10rpx 0;
+  float: left;
+}
+
+.material .img_box image:nth-child(3n) {
+  margin-right: 0;
+}
+
+.bottom_clear {
+  padding-bottom: 20rpx;
+  overflow: hidden;
+  padding-top: 10rpx;
+}
+
+.bottom_clear .fl {
+  float: left;
+  line-height: 30rpx;
+  font-size: 26rpx;
+  color: #727272;
+}
+
+.bottom_clear .fr {
+  float: right;
+  font-size: 26rpx;
+  line-height: 30rpx;
+  color: #2d2d2d;
+}
+
+.bottom_clear .fr image {
+  display: block;
+  float: left;
+  width: 30rpx;
+  height: 30rpx;
+  margin:0 20rpx;
+}
+
+.pos_bottom {
+  position: fixed;
+  bottom: 100rpx;
+  left: 0;
+  padding: 23rpx 30rpx;
+  overflow: hidden;
+  width: 100%;
+  box-sizing: border-box;
+  background: #fff;
+}
+
+.pos_bottom .fl {
+  width: 54rpx;
+  height: 54rpx;
+}
+
+.pos_bottom .fr {
+  float: right;
+  padding: 15rpx 30rpx;
+  background: #d30000;
+  line-height: 30rpx;
+  color: #fff;
+  border-radius: 10rpx;
+}
+
+.pos_bottom .fr image {
+  width: 30rpx;
+  height: 30rpx;
+  float: left;
+  margin-right: 20rpx;
+}
+
+.blank {
+  height: 108rpx;
+}
+
+.hide {
+  display: none;
+}
+
+.close {
+  position: absolute;
+  top: 34rpx;
+  right: 30rpx;
+  width: 45rpx;
+  height: 45rpx;
+  display: block;
+}
+
+
+
+.shares {
+  width: 64rpx;
+  height: 64rpx;
+  border-radius: 50%;
+  position: absolute;
+  top: 20rpx;
+  right: 20rpx;
+  overflow: hidden;
+}
+
+.btn_share {
+  width: 64rpx;
+  height: 64rpx;
+  display: block;
+}
+
+.shareBox {
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+}
+
+.shareBox .win_share {
+  border-radius: 12rpx;
+  background: #fff;
+  position: absolute;
+  bottom: 136rpx;
+  width: 690rpx;
+  padding: 40rpx 0;
+  z-index: 22;
+  margin-left: 30rpx;
+  color: #333;
+  font-size: 28rpx;
+}
+
+.shareBox .win_share .share1 {
+  width: 33.33%;
+  float: left;
+  text-align: center;
+}
+
+.shareBox .win_share .share1 image {
+  width: 60rpx;
+  height: 60rpx;
+  display: inline-block;
+}
+
+.shareBox .win_share .share1 text {
+  display: block;
+  margin-top: 20rpx;
+}
+
+.blankShare {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 80%;
+}
+
+.shareBox button {
+  background: transparent;
+  font-size: 26rpx;
+  color: #414141;
+  line-height: 45rpx;
+}
+
+.shareBox button::after {
+  border: 0;
+  font-size: 26rpx;
+  background-color: fff;
+}
+
+.shareBox .win_share .share1 button text {
+  display: block;
+  margin-top: 13rpx;
+}
+.confrim{
+ background-color: #FF5A02;
+  width: 750rpx;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  font-size: 32rpx;
+  height: 96rpx;
+  line-height: 96rpx;
+  text-align: center;
+  z-index: 9;
+  color: #fff;
+}

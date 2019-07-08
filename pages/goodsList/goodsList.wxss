@@ -1,0 +1,193 @@
+page {
+  background-color: #f2f8fe;
+}
+.search{
+  background-color: #fff;
+  padding: 18rpx 30rpx;
+  position: relative;
+  height: 80rpx;
+}
+.search input{
+  display: block;
+  float: left;
+  width: 582rpx;
+  position: absolute;
+  top: 20rpx;
+  left: 40rpx;
+  height: 72rpx;
+  line-height: 72rpx;
+  font-size: 30rpx;
+  text-align: center;
+} 
+.jiaSearch{
+  width: 130rpx;
+  height: 100rpx;
+  position: absolute;
+  top: 8rpx;
+  right: 20rpx;
+  z-index: 1;
+}
+.search .btn-search{
+  width: 34rpx;
+  height: 34rpx;
+  margin-top:33rpx;
+  margin-left: 28rpx;
+}
+.box{
+  background-color: #f1f1f1;
+  border-radius: 50rpx;
+  height: 72rpx;
+  margin: 4rpx 4rpx 4rpx 4rpx;
+}
+.tab {
+  background-color: #fff;
+  height:88rpx;
+  line-height: 88rpx;
+  text-align: center;
+  font-size: 28rpx;
+  color: #333;
+}
+.tabList {
+  width: 250rpx;
+  float: left;
+}
+.tabList.on {
+  color: #FF5A02;
+  border-bottom: 2rpx solid #FF5A02;
+}
+.goodsList{
+  margin: 20rpx 0;
+}
+.goods{
+  background-color: #fff;
+  height: 298rpx;
+  margin-bottom: 20rpx;
+  position: relative;
+}
+.goods text{
+  display: block;
+}
+.goodsPic{
+  width: 190rpx;
+  height: 190rpx;
+  display: block;
+  float: left;
+  margin-left: 30rpx;
+  margin-top: 40rpx;
+  margin-right: 20rpx;
+  border: 1rpx solid #eee;
+  border-radius: 12rpx;
+  padding: 4rpx;
+}
+.goodsInfo{
+  float: left;
+}
+.goodsName{
+  width: 428rpx;
+  font-size: 32rpx;
+  color: #333;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  margin-top: 38rpx;
+}
+.goodsDes{
+  width: 428rpx;
+  font-size: 28rpx;
+  color: #666;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  margin-top: 8rpx;
+}
+.goods .goodsPrice{
+  display: inline-block;
+  height: 50rpx;
+  color: #333;
+  font-size: 36rpx;
+  line-height: 50rpx;
+}
+.goods  text.goodsearn{
+  display: inline-block;
+  color: #c40000;
+  font-size: 36rpx;
+  height: 50rpx;
+  line-height: 50rpx;
+  margin-left: 26rpx;
+  margin-top: 20rpx;
+}
+.goods text.goodsNum{
+  color: #666;
+  font-size: 24rpx;
+  height: 34rpx;
+  line-height: 34rpx;
+  margin-top: 10rpx;
+  width: 142rpx;
+}
+.goods  text.goodsStock {
+  color: #666;
+  font-size: 24rpx;
+  height: 34rpx;
+  line-height: 34rpx;
+  margin-top: 8rpx;
+}
+.goodsInfo .spacial {
+  color: #FF5A02 ;
+  border: 1px solid #FF5A02 ;
+  font-size: 20rpx;
+  height: 32rpx;
+  line-height: 32rpx;
+  border-radius: 5rpx;
+  text-align: center;
+  width: 62rpx;
+  margin-top: 10rpx;
+}
+.goodsInfo .spacialdis {
+  color: #fff;
+  font-size: 20rpx;
+  padding: 4rpx 13rpx;
+  background: #FF5A02 ;
+  border-radius: 18rpx;
+  margin-left: 10rpx;
+}
+.serchbox{
+  background-color: #fff;
+  margin-top: 20rpx;
+  position: relative;
+  overflow: hidden;
+  padding-bottom: 100rpx;
+}
+.serchbox  .tip{
+  text-align: center;
+  font-size: 32rpx;
+  width: 156rpx;
+  margin-left: 334rpx;
+  margin-top: 75rpx;
+}
+.serchbox  .btn-search{
+  width: 34rpx;
+  height: 34rpx;
+  position: absolute;
+  top: 75rpx;
+  left: 290rpx;
+}
+.popSearch{
+  font-size: 28rpx;
+  color: #666;
+  padding: 0 20rpx;
+  text-align: center;
+  display: inline-block;
+}
+.popSearch text{
+  border:1px solid #eee;
+  border-radius: 6px;
+  padding: 10rpx 25rpx;
+  word-wrap: normal;
+  margin-top:20rpx;
+  display: inline-block
+}
+.goodsNull{
+   padding: 40rpx 0;
+    color: #999;
+    text-align: center;
+}

@@ -1,0 +1,202 @@
+page{
+  background-color: #f2f8fe;
+}
+.tab{
+  background-color: #fff;
+  height: 88rpx;
+  line-height:88rpx;
+  text-align: center;
+  font-size:28rpx;
+  color: #333;
+}
+.tabList{
+  width: 20%;
+  float: left;
+}
+.tabList.on{
+  color: #FF5A02;
+  background-color: #fff;
+  border-bottom: 4rpx solid #FF5A02;
+}
+.orderList{
+  margin-bottom: 20rpx;
+}
+.orderItem{
+  margin-top: 20rpx;
+  background-color: #fff;
+  padding: 0 30rpx;
+}
+.headerInfo{
+  height: 76rpx;
+  line-height: 76rpx;
+  border-bottom: solid 1px #eee;
+  font-size: 28rpx;
+  color: #333;
+}
+.orderNo{
+  color: #333;
+}
+.ml{
+  margin-left: 20rpx;
+}
+.statu{
+  font-size: 32rpx;
+  color: #FF5A02;
+}
+.goodsListItem{
+  padding: 20rpx 0;
+  border-bottom: solid 1px #ededed;
+}
+.userStatu{
+  width: 32rpx;
+  height: 32rpx;
+  text-align: center;
+  line-height: 32rpx;
+  border-radius: 4rpx;
+  color: #fff;
+  display: none;
+}
+.userStatu.seller{
+  display: inline-block;
+  background-color: #ea8018;
+  margin-right: 12rpx;
+}
+.userStatu.buyers{
+  display: inline-block;
+  background-color: #c40000;
+  margin-right: 12rpx;
+}
+.goodsListItem text{
+  display: block;
+}
+.goodsPic{
+  border-radius: 5rpx;
+  border: 1rpx solid #eee;
+  width: 120rpx;
+  height: 120rpx;
+  float: left;
+  margin-right: 20rpx;
+}
+.goodsInfo{
+  width: 536rpx;
+  float: left;
+}
+.PriceNum{
+  margin-top: 12rpx;
+  width: 172rpx;
+  float: left;
+  text-align: right;
+  color: #666;
+}
+.goodsName{
+  height: 40rpx;
+  line-height: 40rpx;
+  font-size:28rpx;
+  color:#333;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.goodsDes{
+  font-size: 22rpx;
+  color: #666;
+   display: -webkit-box;
+  word-break: break-all;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp:2; 
+}
+.goodsSpec{
+  padding-top: 20rpx;
+  font-size: 26rpx;
+}
+.goodsPrice{
+  font-size: 36rpx;
+  color: #333;
+  margin-top: 30rpx;
+  float: left;
+}
+.goodsNum{
+  font-size:28rpx;
+  color: #333;
+  float: right;
+  margin-top: 30rpx;
+}
+.priceDetail{
+  overflow: hidden;
+  text-align: right;
+}
+.priceDetail .text{
+  display: inline-block;
+  clear: both;
+  margin-top: 20rpx;
+  font-size: 28rpx;
+}
+.priceDetail .money.text{
+  color: #333;
+}
+.priceDetail .discount.text{
+  font-size: 28rpx;
+  color: #C40000 ;
+}
+.priceDetail .postage.text{
+  font-size: 28rpx;
+  color: #333;
+}
+.opration{
+  padding-bottom: 20rpx;
+  clear:both;
+  overflow: hidden;
+}
+.del{
+  margin-top: 26rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  padding: 0 32rpx;
+  border-radius: 6rpx;
+  background-color: #eee;
+  color: #333;
+  margin-left:20rpx;
+  font-size: 28rpx;
+  margin-bottom: 6rpx;
+}
+.bor{
+  background-color: #FF5A02;
+  color: #fff;
+}
+.red{
+  color: #d60005;
+  border:solid 1px #d60005;
+}
+.nullOrder{
+   text-align: center;
+   margin-top:20rpx;
+}
+.footer{
+  height: 104rpx;
+  background:#fff;
+  color:#333;
+  font-size: 24rpx;
+  text-align: center;
+  position: fixed;
+  bottom:0;
+  width: 100%;
+  border-top: 1rpx solid #eee;
+}
+.footer navigator{
+  display: inline-block;
+  width: 25%;
+}
+.footer navigator image{
+  width: 56rpx;
+  height: 56rpx;
+  display: block;
+  margin: 12rpx auto 0rpx;
+}
+.footer .cur{
+  color: #FF5A02;
+}
+.blank{
+  height: 100rpx;
+}
